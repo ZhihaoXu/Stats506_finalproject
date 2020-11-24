@@ -1,5 +1,5 @@
 # Stats506 Final Project
-This propsal can be view at [link]()
+This propsal can be view at [link](http://htmlpreview.github.io/?https://github.com/ZhihaoXu/Stats506_finalproject/blob/main/proposal.html)
 ## Topic
 Performance of BH-Adjust in an atypical situation
 
