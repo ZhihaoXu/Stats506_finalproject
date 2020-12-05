@@ -1,2 +1,2 @@
 # Stats506 Final Project
-The propsal can be view at [link](http://htmlpreview.github.io/?https://github.com/ZhihaoXu/Stats506_finalproject/blob/main/proposal.html)
+The Write-up can be viewed at [link](http://htmlpreview.github.io/?https://github.com/ZhihaoXu/Stats506_finalproject/blob/main/final_writeup.html)
