@@ -6,7 +6,7 @@ output: pdf_document
 ---
 
 ## Topic
-Performance of Benjamini-Hochberg Adjustment in an atypical situation
+Performance of Benjamini-Hochberg Adjustment in an atypical situation. Click [here](https://github.com/ZhihaoXu/Stats506_finalproject) to view the Github Repo of this project.
 
 ## Introduction
 In the multiple hypothesis testing problem, usually we care about the False Discovery Rate(FDR) instead of Type 1 Error. Benjamini-Hochberg procedure is commonly used to control the FDR in multiple hypothesis testing.  
@@ -40,7 +40,7 @@ source('final_proj_code.R')
 ```
 
 ## Simulation Result
-### Global Null: $\mu_i=0$
+### 1. Global Null: $\mu_i=0$
 ```{r c1}
 col1 = rep(c("Independent", "Positive Correlation", "Negative Correlation"), 
            each = 2)
@@ -51,7 +51,7 @@ row.names(result_null) = NULL
 knitr::kable(result_null, align="c")
 ```
 
-### Sequential True Alternatives: $\mu_1=\mu_2=0.2, \mu_3=\mu_4 = 0.6, \mu_5=\mu_6=1,$ and $\mu_i=0$ for $6<i\le50$.
+### 2. Sequential True Alternatives: $\mu_1=\mu_2=0.2, \mu_3=\mu_4 = 0.6, \mu_5=\mu_6=1,$ and $\mu_i=0$ for $6<i\le50$.
 ```{r c2}
 result_sig = cbind(adj, col1, sprintf("%5.3f", result_sig[,1]), sprintf("%5.3f", result_sig[,2]))
 colnames(result_sig) = c("Method", "Correlation Structure", "FDR", "power")
