@@ -2,7 +2,7 @@
 title: "Stats 506 F20, Final Project"
 author: "Zhihao Xu, xuzhihao@umich.edu"
 date: "`r format.Date(Sys.Date(), '%B %d, %Y')`"
-output: pdf_document
+output: html_document
 ---
 
 ## Topic
@@ -63,7 +63,7 @@ knitr::kable(result_sig, align="c",caption = cap2)
 
 
 ## Conclusion & Discussion
-Through the above simulation result, we can see that although the negative correlation structure does not satisfy the PRDS assumption, we can also use BH method to control FDR in some cases. BY method can always control FDR successfully but will also leads to conservative rejection. In the above simulation, the FDR got by the BY-method is only 1/10 of our target, which will also lead to the decrease in power. Hence, if the correlation structure is unknown, it is also reasonable to use BH method, and we can also use BY-method as a base line method.
+Through the above simulation result, we can see that although the negative correlation structure does not satisfy the PRDS assumption, we can also use BH procedure to control FDR in some cases. BY procedure can always control FDR successfully but will also leads to conservative rejection. In the above simulation, the FDR got by the BY procedure is only 1/10 of our target, which will also lead to the decrease in power. Hence, if the correlation structure is unknown, it is also reasonable to use BH procedure, and we can also use BY procedure as a base line procedure
 
 
 
