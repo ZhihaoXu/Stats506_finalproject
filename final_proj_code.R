@@ -1,5 +1,6 @@
 ## Final Project - R code
 ##
+## This file stores the R code for monte carlo study in Final Project
 ## Author(s): Zhihao Xu, xuzhihao@umich.edu
 ## Updated: December 4, 2020 
 
